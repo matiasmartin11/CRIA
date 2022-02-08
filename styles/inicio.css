@@ -114,6 +114,7 @@ header{
   /* CSS footer*/
 
   .footer{
+      bottom: 0;
       height: 200px;
       width: 100%;
       background-color: black;
@@ -191,5 +192,3 @@ header{
   .redFooter:hover{
     font-weight: bolder;
   }
-
-  
