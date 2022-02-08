@@ -110,5 +110,42 @@ header{
       width: 100%;
       background-color: black;
       color: white;
+      display:flex;
+  }
+
+  .listaFooter >  ul li{
+    list-style: none;
+    padding-top: 10px;
+    margin-left: 10px;
+  }
+
+  .aFooter:link{
+    color: white;
+    text-decoration: none;
+  }
+
+  .aFooter:visited{
+    color: green;
+  }
+
+  .aFooter:hover{
+    text-decoration: underline;
+  }
+
+  .redesSociales{
+    margin-left: auto; 
+    margin-right: 0;
+  }
+
+  .redesSociales > ul li{
+    list-style-type: none;
+    padding-top: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+  }
+
+  .imagenRed{
+    width:40px;
+    height: 30px;
   }
 
