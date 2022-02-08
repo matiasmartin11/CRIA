@@ -122,9 +122,19 @@ header{
       display:flex;
   }
 
+  .listaFooter{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
   .listaFooter >  ul li{
     list-style: none;
     padding-top: 10px;
+    margin-left: 10px;
+  }
+
+  .tituloEnlaces{
     margin-left: 10px;
   }
 
@@ -134,11 +144,11 @@ header{
   }
 
   .aFooter:visited{
-    color: green;
+    color: rgb(255, 255, 255);
   }
 
   .aFooter:hover{
-    text-decoration: underline;
+    font-weight: bolder;
   }
 
   .redesSociales{
@@ -151,10 +161,34 @@ header{
     padding-top: 10px;
     padding-right: 10px;
     margin: 0 auto;
+    text-align: center;
   }
 
-  .imagenRed{
+  .imagenInstagram{
+    padding-left: 8px;
+    width:40px;
+    height: 40px;
+  }
+
+  .imagenTwitter{
     width:40px;
     height: 30px;
   }
 
+  .imagenDiscord{
+    width: 43px;
+    height: 30px;
+  }
+
+  .redFooter:link{
+    color: white;
+    text-decoration: none;
+  }
+
+  .redFooter:visited{
+    color: rgb(255, 255, 255);
+  }
+
+  .redFooter:hover{
+    font-weight: bolder;
+  }
