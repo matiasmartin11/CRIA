@@ -5,11 +5,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <title>Contacto</title>
     <link rel="stylesheet" href="styles/inicio.css">
 </head>
 
 <body>
+    <div id="topBar">
+        <select name="usuario" >
+            <optgroup >
+            <option value="value1" ><img src="usuario.png" width="20px" height="20px"></option>
+            <option value="value2" >Value 2</option>
+            <option value="value3">Value 3</option>
+        </optgroup>
+          </select>
+          <select name="carrito">
+            <optgroup>
+                <option value="value1"><img src="carrito.png" width="20px" height="20px"></option>
+                <option value="value2" >Value 2</option>
+                <option value="value3">Value 3</option>
+            </optgroup>
+          </select>
+    <header>
+        <img class="logoGrande" src="media/logo.png" alt="logoCRIA">
+    </header>
+
+    <div id="menuHorizontal">
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Foro</a></li>
+                <li class="dropdown" onmouseover="hover(this);" onmouseout="out(this);"><a href="#">Noticias &nbsp;<i
+                            class="fa fa-caret-down"></i></a>
+                    <div class="dd">
+                        <div id="up_arrow"></div>
+                        <ul>
+
+                            <li><a href="https://elpais.com/noticias/agricultura/">El pais</a></li>
+                            <li><a href="https://www.europapress.es/temas/agricultura/">Europa press</a></li>
+                            <li><a href="https://cadenaser.com/tag/agricultura/a/">Cadena ser</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">Tienda</a></li>
+            </div>
+            </ul>
+        </nav>
+    </div>
     <form class="form">
         <h2>CRIA</h2>
         <p type="Nombre:"><input placeholder="Escribe tu nombre.."></input></p>
@@ -18,6 +59,24 @@
         <p type="Mensaje adjunto:"><input placeholder="El motivo por el que nos contactas.."></input></p>
         <button>Enviar</button>
       </form>
+      <div class="footer">
+        <div class="listaFooter">
+            <ul>
+                <h3 class="tituloEnlaces" >Enlaces de Interés</h6>
+                <li><a class="aFooter" href="contacto.html">Contacto</a></li>
+                <li><a class="aFooter" href="terminos.html">Terminos</a></li>
+                <li><a class="aFooter" href="ayuda.html">Ayuda</a></li>
+            </ul>
+        </div>
+        <div class="redesSociales">
+            <ul>
+                <li>Visite nuestras Redes Sociales</li>
+                <li><a class="redFooter" href="https://twitter.com/imjustkuma"><img class="imagenInstagram" src="./media/redesSociales/instagram.png" alt="instagram">criagro_</a></li>
+                <li><a class="redFooter" href="https://twitter.com/imjustkuma"><img class="imagenTwitter" src="./media/redesSociales/twitter.png" alt="twitter">criagro</a></li>
+                <li><a class="redFooter" href="https://twitter.com/imjustkuma"><img class="imagenDiscord" src="./media/redesSociales/discord.png" alt="discord">criagro</a></li>
+            </ul>
+        </div>
+    </div>
 </body>
 
 </html>
