@@ -3,6 +3,9 @@ header{
     text-align: center;
     display: block;
 }
+.usuario{
+  background-image: url(usuario.png);
+}
 .logoGrande{
   width: 130px;
   height: 130px;
