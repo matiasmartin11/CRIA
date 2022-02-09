@@ -292,4 +292,16 @@ a {
 
   .redFooter:hover{
     font-weight: bolder;
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    color: white;
   }
+
+.listaFooter{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
