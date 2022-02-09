@@ -1,0 +1,52 @@
+  /*Pagina de contactos*/
+
+  .form{
+    width:540px;
+    height:440px;
+    background:#c3ffc7;
+    border-radius:8px;
+    box-shadow:0 0 40px -10px #000;
+    margin:calc(50vh - 220px) auto;
+    padding:20px 30px;max-width:calc(100vw - 40px);
+    box-sizing:border-box;
+    font-family:'Helvetica';
+    position:relative;
+  }
+  h2{
+    margin:10px 0;
+    padding-bottom:10px;
+    width:180px;
+    color:#034903;
+    border-bottom:3px solid #034903;
+  }
+  input{
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+    background:none;
+    outline:none;
+    resize:none;
+    border:0;
+    font-family:'Helvetica';
+    transition:all .3s;
+    border-bottom:2px solid #034903;
+  }
+  input:focus{
+    border-bottom:2px solid #00ffaa;
+  }
+  p:before{
+    content:attr(type);
+    display:block;
+    margin:28px 0 0;
+    font-size:14px;
+    color:#053a00;
+  }
+  button{
+    float:right;
+    padding:8px 12px;
+    margin:8px 0 0;
+    font-family:'Helvetica';
+    border:2px solid #053a00;
+    background:0;color:#053a00;
+    cursor:pointer;
+    transition:all .3s}
