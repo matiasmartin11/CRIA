@@ -1,0 +1,25 @@
+{
+  "name": "cria",
+  "version": "1.0.0",
+  "description": "proyectofin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matiasmartin11/CRIA.git"
+  },
+  "keywords": [
+    "agriculture"
+  ],
+  "author": "matias, gema, miriam y chema",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matiasmartin11/CRIA/issues"
+  },
+  "homepage": "https://github.com/matiasmartin11/CRIA#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
