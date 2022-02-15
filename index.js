@@ -9,13 +9,18 @@ router.get('/',function(req,res){
     //__dirname : It will resolve to your project folder.
 });
 
+router.get('/terminos',function(req,res){
+  console.log(path);
+    res.sendFile(path.join(__dirname+'/src/public/terminos.html'));
+    //__dirname : It will resolve to your project folder.
+});
 
 
 //add the router
 
 app.use(express.static(path.join(__dirname, "src")));
 app.use('/', router);
-
+app.use('/terminos', router);
 
 app.listen(process.env.port || 3000);
 
